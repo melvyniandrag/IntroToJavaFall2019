@@ -14,3 +14,6 @@ https://docs.oracle.com/javase/tutorial/i18n/TOC.html'
 
 Deployment
 https://docs.oracle.com/javase/tutorial/deployment/TOC.html
+
+Perfect summary of collections:
+https://docs.oracle.com/javase/tutorial/collections/implementations/index.html
