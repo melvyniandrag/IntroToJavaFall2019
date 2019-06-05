@@ -23,3 +23,9 @@ https://www.dyclassroom.com/image-processing-project/how-to-convert-a-color-imag
 
 jmusic
 https://explodingart.com/jmusic/
+
+play framework hello world:
+https://github.com/playframework/play-samples/tree/2.7.x/play-java-hello-world-tutorial
+
+minesweeper in java:
+https://github.com/janbodnar/Java-Minesweeper-Game
