@@ -29,3 +29,6 @@ https://github.com/playframework/play-samples/tree/2.7.x/play-java-hello-world-t
 
 minesweeper in java:
 https://github.com/janbodnar/Java-Minesweeper-Game
+
+numerical integration:
+https://introcs.cs.princeton.edu/java/93integration/TrapezoidalRule.java.html
