@@ -5,13 +5,6 @@ As there are likely some new students ( usually a few students miss the first cl
 ## Review the basics of Java
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html
 
-## Bitwise operators
-https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html
-
-A more indepth look at bitwise operators
-https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html
-
-[For the in class lab, have students parse binary data like I do for work!]
 
 ## Classes and Objects - Huge concepts in Java!!
 https://docs.oracle.com/javase/tutorial/java/javaOO/index.html
