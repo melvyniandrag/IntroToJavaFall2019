@@ -9,3 +9,11 @@ https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html
 ## Classes and Objects - Huge concepts in Java!!
 https://docs.oracle.com/javase/tutorial/java/javaOO/index.html
 ( Can we cover lambdas and put them to good use here? )
+
+## Bitwise operators
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html
+
+A more indepth look at bitwise operators
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html
+
+[For the in class lab, have students parse binary data like I do for work!]
