@@ -1,6 +1,6 @@
 # Java Programming
 
-This is the class repository for CS 365. Hopefully the repository is laid out in a clear way. In here you will find
+This is the class repository for CS 365. In here you will find
 
 1. Lecture notes
 2. In class assignments
