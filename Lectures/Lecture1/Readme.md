@@ -21,13 +21,39 @@ So I'm glad you're here. If you've got the time to make it to lectures, do the a
 
 There's alot of material to cover. Let's write a program now to get started.
 
+## How To Write Java Programs ( Pt. 1 )
+You can just write a program in a text file ( not in microsoft word, you use a TextEditor like Sublime/notepad++/vim/emacs/atom/visual studio code/etc. there are so many of them! ), save it with a java extension, and then COMPILE it. Then you can run the code you just wrote to get results.
+
 ## Hello World in Java
 Write a Java program in a text editor and compile on the command line.
 Talk about classes, compilers, and what we just did.
 
+Here is the helloworld program:
+https://introcs.cs.princeton.edu/java/11hello/HelloWorld.java.html
+
+## How to Write Java Programs ( Pt. 2 )
+You can also use a tool called an IDE ( Integrated Development Environment, which is like you editor/compiler packaged together and it comes with a BUNCH more features! I learned to program with C++ in Linux so I learned a bit of a different methodology from that of the IDE for developing software. It was only some years later that I learned to use an IDE when I got a job and they were using one - I forget what it was. Now I use IDEs daily, usually when I develop windows applications, android apps, or embedded software that runs on tiny processors that have great toolsets built into the related IDEs. But, for the first 3 years or so that I programmed I never used one, so we are not going to use an IDE for a few weeks as you just learn the basics of Java. When I feel that you know enough about the language to appreciate the extra features that an IDE gives you - at that time I'll introduce you to IDEs and we'll start using them. 
+
+For the record there are a bunch of great IDEs for Java - to name a few you have Eclipse and IntelliJ. [ Show the websites ] 
+
+1. https://www.jetbrains.com/idea/
+2. https://www.eclipse.org/ide/
+
+But, as I said, it's not useful for us to use an IDE yet, and please don't waste time trying to figure one out just yet, in a few weeks we will use one.
+
 ## BREAK
 
-## Cover a few more language features.
+## Lets Learn to program!
+In this class we are going to follow the freely available Java Trails that are available online. Now we will go a little further to learn to program.
+
+### Object Oriented Programming Concepts
+https://docs.oracle.com/javase/tutorial/java/concepts/index.html
+
+### Language Basics
+( Cover everything here. Dont do bitwise operators in great detail ).
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html
+
+### Notes to self
 
 ...As this is the first class, we'll probably have to rehash everything from this lesson the next week in the beginning of the lecture...
 
