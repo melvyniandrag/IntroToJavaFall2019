@@ -1,4 +1,7 @@
 # Some math stuff in Java
+Ch.2 from 3D Astornomy with Java.
+Maybe demo some of the simulations from the book and discuss it with students.
+
 I love astronomy. I could sit in my yard with the telescope and a few friends every night. There is a great book called 
 3D Astronomy With Java which teaches astronomy though the Java language, I really wanted to use it for this class, but I feel like it was too mathematical. I'm experimenting with how to teach this material and make it fun - ultimately the math presented is simple and to do it in Java is really straight forward. Now you all know Java more or less, so we're just going to write code to implement the material in the book in Java to see if you all learn it. 
 
