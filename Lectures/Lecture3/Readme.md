@@ -11,3 +11,5 @@ https://docs.oracle.com/javase/tutorial/java/IandI/index.html
 [ For the lab have students experiment with Interfaces and inheritance. When are methods overriden? How do you know which
 method will be called if you call ChildClass.MethodImplementedInParent() ? How does multiple inheritance work if two parent 
 classes define the same method?]
+
+How does Java handle the diamond problem?
