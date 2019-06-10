@@ -62,3 +62,6 @@ class Marathon {
 Shamelessly lifted from here: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/assignments/MIT6_092IAP10_assn04.pdf
 
 The assignment has a lot of words ( it isnt TOO hard, but I don't see the sense in retyping it. If the link goes dead, see the Problem2.pdf file in this directory ).
+
+## Submission Guidelines
+As always, this homework is due promptly by 6:59:59 PM on 9/18/19.
