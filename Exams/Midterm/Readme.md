@@ -13,3 +13,6 @@ The return value should be a Class with 10 fields:
 char1
 char2
 ArrayList of bools.
+
+Interesting article on bit fiddling in Java:
+https://www.vojtechruzicka.com/bit-manipulation-java-bitwise-bit-shift-operations/
