@@ -4,7 +4,7 @@
 This assignment was shamelessly lifted from here:
 https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/assignments/MIT6_092IAP10_assn03.pdf
 
-__Student Time(min)__
+__Student Time(min)__  
 Elena  341  
 Thomas 273  
 Juan   278  
@@ -60,3 +60,5 @@ class Marathon {
 ## Problem 2
 
 Shamelessly lifted from here: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/assignments/MIT6_092IAP10_assn04.pdf
+
+The assignment has a lot of words ( it isnt TOO hard, but I don't see the sense in retyping it. If the link goes dead, see the Problem2.pdf file in this directory ).
