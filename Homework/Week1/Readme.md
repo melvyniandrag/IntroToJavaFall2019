@@ -28,3 +28,6 @@ The class should also have methods:
 4. useOrComparator() // uses ||
 
 This little assignment is to get your feet wet with basic Java syntax.
+
+## Submission Guidelines
+Due before 7PM on 9/11. No late submissions - not even at 7:01!! Part of programming is managing your time and accomplishing coding tasks in a reasonable amount of time.
