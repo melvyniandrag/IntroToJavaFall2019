@@ -1,6 +1,6 @@
 # Midterm Exam
 
-Write a java class to take in some binary data, parse it and return an object containing a reinterpretation of the binary data!
+Write a Java method to take in some binary data, parse it and return an object containing a reinterpretation of the binary data!
 
 i.e. takes an Int32 where:
 
