@@ -13,3 +13,13 @@ method will be called if you call ChildClass.MethodImplementedInParent() ? How d
 classes define the same method?]
 
 How does Java handle the diamond problem?
+
+## Bitwise operators
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html
+
+A more indepth look at bitwise operators
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op3.html
+
+[For the in class lab, have students parse binary data like I do for work!]
+
+This bitwise stuff is essential CS knowledge that is useful in many languages and for you r understanding of how computers work, that's why its going to be on the midterm.
