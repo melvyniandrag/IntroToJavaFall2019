@@ -16,8 +16,9 @@ This class should have methods:
 
 1. getMyInt()
 2. getMyByte()
-3. ...
+3. etc.
 9. getMyIntArray()
+// for a total of 9 of these 'getter methods'.
 
 And each of those methods should print out the value you assigned to the member variable.For getMyIntArray() you will need a loop to loop over the array and print each int.
 
