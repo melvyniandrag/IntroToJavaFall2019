@@ -6,4 +6,7 @@ Run the same Java program, feeding it the UTF-16 encoded file this time.
 Ensure that the program barfs appropriately.
 
 ## Submission Guidelines
-Due before 7PM next week. Submit your code file(s), mytext.utf8 and mytext.utf16.
+Due before 7PM next week. Submit:
+1. Your code file(s)
+2. mytext.utf8
+3. mytext.utf16.
