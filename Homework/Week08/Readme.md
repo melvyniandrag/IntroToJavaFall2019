@@ -10,3 +10,8 @@ Due before 7PM next week. Submit:
 1. Your code file(s)
 2. mytext.utf8
 3. mytext.utf16.
+
+For credit:
+1. mytext.utf8 must be utf8 encoded
+2. your code must compile and generate mytext.utf16 when I run it on the command line, supplying it mytext.utf8 as a parameter.
+3. Your code must barf when I run `java UnicodeExample mytext.utf16`.
