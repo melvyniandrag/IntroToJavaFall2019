@@ -1,5 +1,8 @@
 # Java Programming
 
+
+NOTE TO SELF: Do something with Anscombes Quartet + The Anscombe Dinosaur Dataset.
+
 This is the class repository for CS 365. In here you will find
 
 1. Lecture notes
