@@ -12,6 +12,7 @@ Computers are tools for doing things, if you didn't know that yet. Programming l
 3. Math demo
 4. Website whose backend is Java.
 5. Beaglebone driving a servo with Java.
+6. Arduino IDE is written with Java
 
 So as you can see, if you know Java you'll be able to do lots of cool stuff. 
 
