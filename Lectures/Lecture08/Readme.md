@@ -22,3 +22,10 @@ See question 2a here: https://docs.oracle.com/javase/tutorial/java/data/QandE/ch
 
 Discussion of text encodings. How does java handle UTF8 strings? How does it handle UTF16?
 
+## Unicode in URLs
+Paste this into a browser:
+https://ko.wikipedia.org/wiki/위키백과
+
+Then copy the address from the address bar and paste it into a text file using sublime or notepad or the like. Notice the URL now looks like:
+https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC
+
