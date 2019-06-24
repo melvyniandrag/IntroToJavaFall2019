@@ -3,6 +3,8 @@
 
 NOTE TO SELF: Do something with Anscombes Quartet + The Anscombe Dinosaur Dataset.
 
+NOTE TO SELF: Make sure to present the ternary operator http://tutorials.jenkov.com/java/ternary-operator.html
+
 This is the class repository for CS 365. In here you will find
 
 1. Lecture notes
