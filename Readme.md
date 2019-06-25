@@ -9,6 +9,8 @@ CHECK WITH I.T.: Can we install this: https://www.oracle.com/technetwork/java/ja
 
 COOL GUITAR WEBSITE IN JAVA: https://jguitar.com/
 
+A FEW HOMEWORK/CLASSWORK IDEAS: http://programmingbydoing.com/
+
 This is the class repository for CS 365. In here you will find
 
 1. Lecture notes
