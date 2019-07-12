@@ -1,18 +1,14 @@
 # Midterm Exam
 
-Write a Java method to take in some binary data, parse it and return an object containing a reinterpretation of the binary data!
+Write a program on paper with a Java method that can take in a byte and process the bits of the byte into an ArrayList of bools.
 
-i.e. takes an Int32 where:
-
-bits 0-8 represent a char
-bits 9-15 represent a char
-bits 16-23 are junk
-bits 24-31 are bools.
-
-The return value should be a Class with 10 fields:
-char1
-char2
-ArrayList of bools.
+The return value of the method should be a Class with 8 fields:
+bool a = t/f
+...
+bool h = t/f
 
 Interesting article on bit fiddling in Java:
 https://www.vojtechruzicka.com/bit-manipulation-java-bitwise-bit-shift-operations/
+
+## Grading
+Take X points off for a minor error in bit shifting. 
