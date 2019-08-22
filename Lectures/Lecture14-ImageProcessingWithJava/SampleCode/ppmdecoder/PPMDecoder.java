@@ -17,6 +17,7 @@ public class PPMDecoder{
 	private ArrayList<Integer> _dimensions; // Width, Height
 	private ArrayList<ArrayList<Byte>> _pixelValues = new ArrayList<ArrayList<Byte>>(); // Array of RGB 3-tuples
 	public boolean isValidData = true;
+	private ArrayList<Byte> encodedBytes = new ArrayList<Byte>();
 
 	public static void main(String[] args){
 		try{
@@ -28,6 +29,10 @@ public class PPMDecoder{
 			else{
 				System.out.println("$$$$$$$$$$$$$ Binary Input:   $$$$$$$$$$$$$");
 				ppmdecoder.binaryDump();
+				System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+				System.out.println("$$$$$$$$$$$$$ Extracted Msg   $$$$$$$$$$$$$");
+				ppmdecoder.decode();
+				ppmdecoder.binaryDumpExtractedBits();
 				System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
 				System.out.println("############# Decoded String: #############");
 				System.out.println(ppmdecoder.decode());
@@ -70,8 +75,21 @@ public class PPMDecoder{
 			}
 		}
 	}
-	
+
+	/*
+	 * Assume that the last 2 bytes of every channel are used for an encrypted message.
+	 * We have 6 pixels, with 3 channels each so that give 6 * 3 * 2 bits we can use for our messsage.
+	 * That is only 36, so the message will be small!
+	 * Assume that the message is ASCII encoded. That means that each character is 8 bits long, so we can fit 
+	 * four characters in the message.:wq
+	 */
 	public String decode(){
+		for( int pixel = 0; pixel < _pixelValues.size(); ++pixel){
+			for( int channel = 0; channel < 3; ++channel ){
+				byte tmp = (byte)0x03; // b00000011
+				encodedBytes.add( new Byte( (byte)(tmp & _pixelValues.get(pixel).get(channel).byteValue() ) ) );
+			}
+		}
 		return "Hello World!";
 	}
 
@@ -82,6 +100,14 @@ public class PPMDecoder{
 						Integer.toBinaryString(_pixelValues.get(pixel).get(1) & 0xFF),
 						Integer.toBinaryString(_pixelValues.get(pixel).get(2) & 0xFF)
 					).replace(' ', '0');
+			System.out.println(s);
+		}
+
+	}
+
+	private void binaryDumpExtractedBits(){
+		for( int i = 0; i < encodedBytes.size(); ++i){
+			String s = String.format("%8s", Integer.toBinaryString(encodedBytes.get(i) & 0xFF));
 			System.out.println(s);
 		}
 	}
