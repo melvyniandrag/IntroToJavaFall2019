@@ -13,8 +13,10 @@ The purpose of the exam, in my mind is to:
 2. Force students to master the subject
 3. Assign rankings to students in terms of their individual efforts and/or talents, etc. etc..  
 
+I've decided to tell you roughly what will be tested so you can prepare accordingly, and then I'm going to change the problem statement *slightly* and allow you to solve it.
+
 ## So this is your exam
-Write code on paper to convert a color image to grey scale in Java. Your class should read a color image, modify it so it is grey, and save the grey image. 
+Extract a message from an encoded ppm file. I've encoded a message to you in the last 3 bytes of every pixel. You must extractthe last X (3?) bits from every pixel and then add them all together to make an ascii string. What does the string say?
 
 ## Grading
-I will take off X points for minor syntax errors given that the code demonstrates understanding and correct intention. No credit for a paper filled with random stuff that looks vaguely like Java.
+100/50/0. 100 for success, 50 in case of some small issue that prevented you from completing the task, 0 for lack of understanding.
