@@ -8,7 +8,7 @@
 package ppmdecoder;
 
 import java.io.*;
-//import java.util.List;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 
 public class PPMDecoder{
@@ -30,12 +30,12 @@ public class PPMDecoder{
 				System.out.println("$$$$$$$$$$$$$ Binary Input:   $$$$$$$$$$$$$");
 				ppmdecoder.binaryDump();
 				System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+				String message = ppmdecoder.decode();
 				System.out.println("$$$$$$$$$$$$$ Extracted Msg   $$$$$$$$$$$$$");
-				ppmdecoder.decode();
 				ppmdecoder.binaryDumpExtractedBits();
 				System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
 				System.out.println("############# Decoded String: #############");
-				System.out.println(ppmdecoder.decode());
+				System.out.println(message);
 				System.out.println("###########################################");
 			}
 		} catch ( Exception e ){
@@ -90,7 +90,24 @@ public class PPMDecoder{
 				encodedBytes.add( new Byte( (byte)(tmp & _pixelValues.get(pixel).get(channel).byteValue() ) ) );
 			}
 		}
-		return "Hello World!";
+		byte[] bytes = new byte[4]; // to improve code we need to remove hard coding. For this example, we know the message contains 4 ascii characters.
+		int shift = 6;
+		byte shiftByte = (byte)0x00;
+		int currentIndex = 0;
+		for( int b = 0; b < encodedBytes.size() - 2; ++b){ // we know we will ignore the last two, because we are ignoring the last 4 bits.
+			shiftByte |= (byte)(encodedBytes.get(b).byteValue() << shift );
+			if ( shift == 0 ){
+				shift = 6;
+				bytes[currentIndex] = shiftByte;
+				currentIndex++;
+				shiftByte = (byte)0x00;
+			}
+			else{
+				shift -= 2;
+			}
+		}
+		Charset UTF8_CHARSET = Charset.forName("UTF-8");
+		return new String(bytes, UTF8_CHARSET);
 	}
 
 	private void binaryDump(){
