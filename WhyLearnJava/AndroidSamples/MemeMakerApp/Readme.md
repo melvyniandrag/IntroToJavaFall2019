@@ -4,4 +4,4 @@ A sample project I worked on while playing with Java over the summer. This proje
 
 Screenshot:
 
-![alt text](https://github.com/melvyniandrag/IntroToJavaFall2019/WhyLearnJava/AndroidSamples/MemeMakerApp/headTapMeme.png "Meme Screenshot")
+![alt text](https://github.com/melvyniandrag/IntroToJavaFall2019/blob/master/WhyLearnJava/AndroidSamples/MemeMakerApp/headTapMeme.png "Meme Screenshot")
