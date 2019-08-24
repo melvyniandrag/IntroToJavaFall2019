@@ -1,8 +1,11 @@
-# Some math stuff in Java
-Ch.2 from 3D Astornomy with Java.
-Maybe demo some of the simulations from the book and discuss it with students.
+# Making Music With Java
+I stink at it, but I like playing my guitar. When I found out that some people were writing music with computers I was blown away. I saw this talk online a few years ago. As a plug, there's a woman who picked up the work of Paul Hudak in doing a similar thing in a language called Haskell, and she's right up the road at Stevens! Anyway this guy andrew sorenson gave this great talk in yet another language, a framework he wrote called Extempore, and in case you haven't seen, just look what people are doing with programming Music!
 
-I love astronomy. I could sit in my yard with the telescope and a few friends every night. There is a great book called 
-3D Astronomy With Java which teaches astronomy though the Java language, I really wanted to use it for this class, but I feel like it was too mathematical. I'm experimenting with how to teach this material and make it fun - ultimately the math presented is simple and to do it in Java is really straight forward. Now you all know Java more or less, so we're just going to write code to implement the material in the book in Java to see if you all learn it. 
+https://www.youtube.com/watch?v=yY1FSsUV-8c
 
-This lecture is experimental. As I said, the operations are simple. It's a test of how well you can understand a formal requirement and implement it in software. This is good for you because in your career you'll be posed problems which will either intimidate or bore you - but for one reason or another you'll have to do them. I think this is super intersting stuff and I want to see how well you can handle it.
+and it got me eager to get going. Look how he writes code and makes the computer play music. Now you can tell by the code he's writing that it's not Java he did it in. But as I've already told you a million times, Java can do anything! In fact the guy worked on a Java library that works just like his Extempore library! That's what we're going to play with today!
+
+In this lecture we will work through using the jMusic library found here:
+https://explodingart.com/jmusic/index.html
+
+We'll talk a bit of music theory and write some music in class. Have students write little things like Mary Had a Little Lamb. Then let's rewrite the Acoustic Trance song from Alec Stansfield!
