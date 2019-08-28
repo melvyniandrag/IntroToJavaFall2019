@@ -7,12 +7,14 @@ This may be your first programming course - or it may not - either way, this is 
 Computers are tools for doing things, if you didn't know that yet. Programming languages are used for writing code, with which you can make the computer do what crazy things you dream up. I'll just take a minute to show you some Java code that does some really amazing stuff. 
 
 ## Demos
+SEE the WhyLearnJava section.
 1. Guitar sound frequency analyzer
 2. Astronomy demo
 3. Math demo
 4. Website whose backend is Java.
 5. Beaglebone driving a servo with Java.
 6. Arduino IDE is written with Java
+7. Write once run everywhere. Write hello world on linux laptop and then run on windows pc.
 
 So as you can see, if you know Java you'll be able to do lots of cool stuff. 
 
