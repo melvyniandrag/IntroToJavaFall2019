@@ -39,7 +39,7 @@ class Homework1
     return myInt;
   }
   public static void main(String[] args){
-    getMyInt();
+    int i = getMyInt();
   }
 }
 ```
